@@ -281,7 +281,7 @@ export default function Header() {
               <a href="tel:+905411071927" className="hidden md:flex items-center gap-2 rounded-full bg-blue-600 px-6 py-2.5 text-sm font-bold text-white shadow-sm hover:bg-blue-700 transition-all active:scale-95">
                 <RiPhoneFill className="text-lg" /> Hemen Ara
               </a>
-              <a href="https://wa.me/905411071927" rel="noopener noreferrer" className="hidden lg:flex items-center gap-2 px-5 py-2.5 bg-[#128C7E] text-white rounded-full font-bold shadow-[0_4px_14px_0_rgba(18,140,126,0.39)] hover:bg-[#075E54] hover:shadow-[0_6px_20px_rgba(18,140,126,0.23)] hover:-translate-y-0.5 transition-all">
+              <a href="https://wa.me/905411071927" rel="noopener noreferrer" className="hidden lg:flex items-center gap-2 px-5 py-2.5 bg-[#25D366] text-white rounded-full font-bold shadow-[0_4px_14px_0_rgba(37,211,102,0.39)] hover:bg-[#20bd5a] hover:shadow-[0_6px_20px_rgba(37,211,102,0.23)] hover:-translate-y-0.5 transition-all">
                 <RiWhatsappFill className="text-xl" /> WhatsApp&apos;tan Yaz
               </a>
 
@@ -299,7 +299,7 @@ export default function Header() {
                 href="https://wa.me/905411071927"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="md:hidden flex items-center gap-1.5 rounded-full bg-[#128C7E] px-4 py-2 text-sm font-bold text-white shadow-sm active:scale-95"
+                className="md:hidden flex items-center gap-1.5 rounded-full bg-[#25D366] px-4 py-2 text-sm font-bold text-white shadow-sm active:scale-95"
                 aria-label="WhatsApp'tan Yaz"
               >
                 <RiWhatsappFill className="text-lg" />
