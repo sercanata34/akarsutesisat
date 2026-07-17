@@ -3,7 +3,8 @@ import localFont from "next/font/local";
 import Script from "next/script";
 import "./globals.css";
 import Header from "@/components/Header";
-
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 const gilroy = localFont({
   src: [
     {
@@ -160,6 +161,8 @@ export default function RootLayout({
             WhatsApp&apos;tan Yazın
           </span>
         </a>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
