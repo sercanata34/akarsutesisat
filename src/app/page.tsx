@@ -215,7 +215,7 @@ export default function Home() {
               ].map((s) => (
                 <div key={s.label}>
                   <div className="text-3xl md:text-4xl font-black mb-1">{s.val}</div>
-                  <div className="text-blue-100 font-bold text-sm uppercase tracking-widest">{s.label}</div>
+                  <div className="text-white/90 font-bold text-sm uppercase tracking-widest">{s.label}</div>
                 </div>
               ))}
             </div>
@@ -239,7 +239,7 @@ export default function Home() {
                   key={step.num}
                   className="relative group p-8 rounded-3xl bg-gray-50 border border-gray-100 hover:bg-white hover:border-blue-100 hover:shadow-[0_8px_40px_rgb(37,99,235,0.08)] transition-all duration-500"
                 >
-                  <div className="absolute top-6 right-6 text-5xl font-black text-gray-100 group-hover:text-blue-50 transition-colors select-none leading-none">
+                  <div className="absolute top-6 right-6 text-5xl font-black text-gray-100 group-hover:text-blue-50 transition-colors select-none leading-none" aria-hidden="true">
                     {step.num}
                   </div>
                   <div className="w-14 h-14 bg-blue-600 rounded-2xl flex items-center justify-center text-white mb-6 group-hover:scale-110 transition-transform duration-300">
@@ -391,7 +391,7 @@ export default function Home() {
                     </div>
                     <div>
                       <div className="text-sm font-bold text-gray-900">{t.name}</div>
-                      <div className="text-xs text-gray-400 flex items-center gap-1">
+                      <div className="text-xs text-gray-500 flex items-center gap-1">
                         <RiMapPin2Fill className="text-blue-400" /> {t.location}
                       </div>
                     </div>
@@ -655,7 +655,7 @@ export default function Home() {
           <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
             <div className="flex flex-col sm:flex-row items-center justify-between gap-6">
               <div>
-                <p className="text-blue-100 font-bold text-sm uppercase tracking-widest mb-1">Acil Tesisat Sorunu mu Var?</p>
+                <p className="text-white/90 font-bold text-sm uppercase tracking-widest mb-1">Acil Tesisat Sorunu mu Var?</p>
                 <p className="text-white text-2xl font-black">Hemen Arayın — 30 Dakikada Kapınızda</p>
               </div>
               <div className="flex flex-col sm:flex-row items-center gap-4 shrink-0">
@@ -697,7 +697,7 @@ export default function Home() {
                       <RiMapPin2Fill className="text-2xl" />
                     </div>
                     <div>
-                      <div className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-1">Merkez Adres</div>
+                      <div className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-1">Merkez Adres</div>
                       <div className="text-white font-medium text-lg leading-relaxed">H Cd. No:39, Uğur Mumcu Mah.<br />Sultangazi/İstanbul</div>
                     </div>
                   </div>
@@ -707,7 +707,7 @@ export default function Home() {
                       <RiPhoneFill className="text-2xl" />
                     </div>
                     <div>
-                      <div className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-1">Telefon / WhatsApp</div>
+                      <div className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-1">Telefon / WhatsApp</div>
                       <a href="tel:+905411071927" className="block text-white font-medium text-xl hover:text-blue-400 transition-colors mb-2">0541 107 19 27</a>
                       <a
                         href="https://wa.me/905411071927"
@@ -725,7 +725,7 @@ export default function Home() {
                       <RiCustomerService2Line className="text-2xl" />
                     </div>
                     <div>
-                      <div className="text-sm font-bold text-gray-500 uppercase tracking-widest mb-1">Çalışma Saatleri</div>
+                      <div className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-1">Çalışma Saatleri</div>
                       <div className="text-white font-medium text-lg">7/24 Kesintisiz Hizmet</div>
                       <div className="text-gray-400 text-sm mt-1">Bayram ve hafta sonları dahil</div>
                     </div>

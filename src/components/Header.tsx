@@ -281,7 +281,7 @@ export default function Header() {
               <a href="tel:+905411071927" className="hidden md:flex items-center gap-2 rounded-full bg-blue-600 px-6 py-2.5 text-sm font-bold text-white shadow-sm hover:bg-blue-700 transition-all active:scale-95">
                 <RiPhoneFill className="text-lg" /> Hemen Ara
               </a>
-              <a href="https://wa.me/905411071927" target="_blank" rel="noopener noreferrer" className="hidden md:flex items-center gap-2 rounded-full bg-[#25D366] px-6 py-2.5 text-sm font-bold text-white shadow-sm hover:bg-[#20bd5a] transition-all active:scale-95">
+              <a href="https://wa.me/905411071927" rel="noopener noreferrer" className="hidden lg:flex items-center gap-2 px-5 py-2.5 bg-[#128C7E] text-white rounded-full font-bold shadow-[0_4px_14px_0_rgba(18,140,126,0.39)] hover:bg-[#075E54] hover:shadow-[0_6px_20px_rgba(18,140,126,0.23)] hover:-translate-y-0.5 transition-all">
                 <RiWhatsappFill className="text-xl" /> WhatsApp&apos;tan Yaz
               </a>
 
@@ -299,8 +299,8 @@ export default function Header() {
                 href="https://wa.me/905411071927"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="md:hidden flex items-center gap-1.5 rounded-full bg-[#25D366] px-4 py-2 text-sm font-bold text-white shadow-sm active:scale-95"
-                aria-label="WhatsApp&apos;tan Yaz"
+                className="md:hidden flex items-center gap-1.5 rounded-full bg-[#128C7E] px-4 py-2 text-sm font-bold text-white shadow-sm active:scale-95"
+                aria-label="WhatsApp'tan Yaz"
               >
                 <RiWhatsappFill className="text-lg" />
                 <span className="text-xs font-black">Yaz</span>
@@ -310,8 +310,8 @@ export default function Header() {
               <button
                 onClick={() => setMenuOpen(!menuOpen)}
                 type="button"
-                className="md:hidden rounded-full p-2 text-gray-900 hover:bg-gray-100 transition-colors bg-gray-50 border border-gray-200"
-                aria-label="Menüyü Aç/Kapat"
+                aria-label="Menüyü Aç"
+                className="md:hidden inline-flex items-center justify-center p-2 rounded-xl text-gray-700 hover:bg-gray-100 transition-colors active:scale-95"
               >
                 {menuOpen ? <RiCloseLine className="text-2xl" /> : <RiMenu3Line className="text-2xl" />}
               </button>
@@ -340,7 +340,7 @@ export default function Header() {
         {/* Drawer başlık */}
         <div className="flex items-center justify-between px-6 py-3 border-b border-gray-100 shrink-0">
           <span className="text-base font-black text-gray-900">Menü</span>
-          <button onClick={close} className="w-9 h-9 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 hover:bg-gray-200 transition-colors">
+          <button onClick={close} aria-label="Menüyü Kapat" className="w-9 h-9 rounded-full bg-gray-100 flex items-center justify-center text-gray-500 hover:bg-gray-200 transition-colors">
             <RiCloseLine className="text-xl" />
           </button>
         </div>
